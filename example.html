@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>Full screen background example - eu.blacksoft.fs-background</title>
+<meta name="description" content="Full screen background example">
+<meta name="author" content="tomusdrw">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	overflow: hidden;
+	background: #ffe;
+	color: #333;
+	text-align: justify;
+}
+#container {
+	overflow: auto;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#inner {
+	max-width: 824px;
+	min-width: 600px;
+	margin: 10em auto;
+	padding: 0 100px;
+}
+</style>
+</head>
+<body>
+	<img id="bg" src="bg.jpg" width="2048" height="1229" style="display: none" />
+	<div id="container">
+		<div id="inner">
+			<header><h1>Full screen background example</h1></header>
+			<div id="main" role="main">
+			<p>Lorem ipsum dolor sit amet pede. Cras faucibus quis, commodo porta. Sed lobortis urna. Cras vitae tellus. In hac habitasse platea dictumst.
+			Praesent odio a odio. Etiam rutrum, lorem dapibus eget, aliquet lacinia id, luctus et lectus. Praesent dolor. Aliquam urna. Donec mauris
+			nec neque. Vestibulum metus at turpis. Fusce mollis, purus sit amet metus eleifend et, enim. Class aptent taciti sociosqu ad litora
+			torquent per inceptos hymenaeos. Maecenas vehicula, tortor eros, ut sapien facilisis pharetra. Donec odio non imperdiet sagittis, metus a
+			ante ipsum dolor auctor augue mi, viverra ligula. Sed molestie, nunc venenatis nulla. Nunc felis. Morbi quis dolor. Vestibulum eget accumsan
+			placerat eget, scelerisque justo ipsum orci, blandit iaculis, purus sit amet, iaculis leo. Aenean urna quis ante. Phasellus a leo. Donec
+			magna hendrerit libero. Aliquam ut ligula. Aliquam auctor dignissim. Pellentesque aliquam quis, ornare nisl, tristique sodales. Quisque at
+			magna ut tortor. Sed adipiscing. Vestibulum ante ipsum primis in consequat non, nunc. Sed sed urna. Aenean egestas vulputate, odio et turpis.
+			Duis gravida, eros egestas vulputate, arcu elit, dictum ante. Pellentesque bibendum, urna eget nunc tempus.
+			</p>
+			</div>
+			<footer style="font-style:italic;color:#444;font-size: 0.9em;text-align:center;padding:1em">tomusdrw <span style="transform:rotate(180deg);-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);-o-transform:rotate(180deg);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);display:inline-block">
+			&copy;
+	</span> 2011</footer>
+		</div>
+	</div>
+	<script src="background.js"></script>
+</body>
+</html>
